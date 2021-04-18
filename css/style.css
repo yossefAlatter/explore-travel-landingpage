@@ -1,0 +1,112 @@
+/** reset style for all elements **/
+/** start **/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/** end **/
+
+/** declare general colors that we will use **/
+/** start **/
+:root{
+    --mainColor: #FB8F1D;
+    --mainText: #202336;
+    --subText: #B8BECD;
+}
+/** end **/
+
+/** body style that will inheirt for all elements **/
+/** start **/
+body{
+    font-family: 'Inter', sans-serif;
+}
+/** end **/
+
+/** reset all ul elements style **/
+/** start **/
+ul{
+    list-style: none;
+    display: flex;
+}
+/** end **/
+
+/** general style for container **/
+/** start **/
+.container{
+    width: 85%;
+    margin: auto;
+}
+/** end **/
+
+/** general style for all btn **/
+/** start **/
+.btn{
+    border: none;
+    outline: none;
+    width: 132px;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+}
+.btn.main-btn{
+    color: white;
+    background-color: var(--mainColor);
+}
+.btn.sub-btn{
+    color: var(--mainColor);
+    background-color: white;
+    border: 1px solid var(--mainColor);
+    margin-right: 18px;
+}
+/** end **/
+
+
+/** navbar style **/
+/** start **/
+.navbar{
+    padding-top: 45px;
+}
+.navbar  .layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar  .layout .logo img{
+    transform: scale(1.8);
+    margin-top: 4px;
+}
+.navbar  .layout .nav-list{
+    margin-left: auto;
+}
+.navbar  .layout .nav-list .nav-link{
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--subText);
+    margin-right: 35px;
+    cursor: pointer;
+}
+.navbar  .layout .nav-list .nav-link:hover{
+    transition: all 0.3s;
+    color: var(--mainText);
+}
+.navbar  .layout .nav-list .nav-link.active{
+    color: var(--mainText);
+}
+/** end **/
+
+/** hero section style **/
+/** start **/
+.hero-sec .layout{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-sec .layout .left-side h2{
+    margin-top: 114px;
+    margin-bottom: 74px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: var(--mainText);
+}
+/** end **/
