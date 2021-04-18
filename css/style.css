@@ -35,7 +35,7 @@ ul{
 /** general style for container **/
 /** start **/
 .container{
-    width: 85%;
+    width: 80%;
     margin: auto;
 }
 /** end **/
@@ -169,7 +169,40 @@ ul{
     background-position: 92%;
     cursor: pointer;
 }
+.hero-sec .layout .right-side{
+    padding-top: 55px;
+}
 .hero-sec .layout .right-side img{
     max-width: 630px;
+}
+/** end **/
+
+/** explore way section style **/
+/** start **/
+.explore-way-sec{
+    margin-top: 190px;
+}
+.explore-way-sec .layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.explore-way-sec .layout .right-side{
+    padding-left: 102px;
+}
+.explore-way-sec .layout .right-side h3{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: var(--mainText);
+    margin-bottom: 20px;
+}
+.explore-way-sec .layout .right-side p{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--mainText);
+    opacity: 0.8;
+    margin-bottom: 30px;
 }
 /** end **/
