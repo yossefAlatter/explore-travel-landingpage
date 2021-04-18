@@ -20,6 +20,7 @@
 /** start **/
 body{
     font-family: 'Inter', sans-serif;
+    height: 5000px;
 }
 /** end **/
 
@@ -53,11 +54,21 @@ ul{
     color: white;
     background-color: var(--mainColor);
 }
+.btn.main-btn:hover{
+    transition: all 0.3s;
+    color: var(--mainColor);
+    background-color: white;
+    border: 1px solid var(--mainColor);
+}
 .btn.sub-btn{
     color: var(--mainColor);
     background-color: white;
     border: 1px solid var(--mainColor);
     margin-right: 18px;
+}
+.btn.sub-btn:hover{
+    color: white;
+    background-color: var(--mainColor);
 }
 /** end **/
 
@@ -100,13 +111,65 @@ ul{
 .hero-sec .layout{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.hero-sec .layout .right-side{
+    width: 50%;
 }
 .hero-sec .layout .left-side h2{
-    margin-top: 114px;
-    margin-bottom: 74px;
+    margin-top: 100px;
+    margin-bottom: 64px;
     font-weight: bold;
     font-size: 64px;
     line-height: 80px;
     color: var(--mainText);
+    cursor: default;
+}
+.hero-sec .layout .left-side h2:hover{
+    color: var(--mainColor);
+}
+.hero-sec .layout .left-side .search-holiday-form .form-title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--mainText);
+    padding-bottom: 21px;
+    position: relative;
+}
+.hero-sec .layout .left-side .search-holiday-form .form-title::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 32px;
+    background-color: var(--mainText);
+}
+.hero-sec .layout .left-side .search-holiday-form .select-grid{
+    display: grid;
+    column-gap: 25px;
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 71px;
+    margin-bottom: 47px;
+}
+.hero-sec .layout .left-side .search-holiday-form .select-grid select{
+    padding: 15px;
+    outline: none;
+    border: 1px solid var(--subText);
+    border-radius: 6px;
+    color: var(--mainText);
+    font-weight: 200;
+    appearance: none;
+    width: 220px;
+    appearance: none;
+    background-image: url('./../images/select-arrow.png');
+    background-repeat: no-repeat;
+    background-position: 92%;
+    cursor: pointer;
+}
+.hero-sec .layout .right-side img{
+    max-width: 630px;
 }
 /** end **/
