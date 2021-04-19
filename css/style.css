@@ -58,6 +58,8 @@ a{
     cursor: pointer;
     border: 1px solid var(--mainColor);
     transition: all 0.3s;
+    font-weight: 500;
+    font-size: 15px;
 }
 .btn.main-btn{
     color: white;
@@ -376,6 +378,7 @@ a{
     line-height: 48px;
     color: var(--mainText);
     transition: all 0.3s;
+    cursor: default;
 }
 .testimonials-sec .layout .left-side .person-title h4:hover{
     transition: all 0.3s;
@@ -419,5 +422,99 @@ a{
 .testimonials-sec .layout .right-side .slider-moves img:hover{
     transition: all 0.3s;
     transform: scale(1.05);
+}
+/** end **/
+
+/** trending story section style **/
+/** start **/
+.trending-story-sec{
+    margin-top: 190px;
+    margin-bottom: 190px;
+}
+.trending-story-sec .sec-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.trending-story-sec .sec-head h3{
+    color: var(--mainText);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    cursor: default;
+    transition: all 0.3s;
+}
+.trending-story-sec .sec-head h3:hover{
+    transition: all 0.3s;
+    color: var(--mainColor);
+}
+.trending-story-sec .sec-head a{
+    color: var(--mainColor);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+}
+.trending-story-sec .sec-head a:hover img{
+    transition: all 0.3s;
+    transform: translateX(8px);
+}
+.trending-story-sec .sec-head a img{
+    transition: all 0.3s;
+}
+.trending-story-sec .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+.trending-story-sec .cards .card{
+    border-radius: 8px;
+    overflow: hidden;
+}
+.trending-story-sec .cards .card .img-con{
+    height: 233px;
+    overflow: hidden;
+}
+.trending-story-sec .cards .card .img-con img{
+    width: 100%;
+    transition: all 0.3s;
+}
+.trending-story-sec .cards .card .img-con img:hover{
+    transition: all 0.3s;
+    transform: scale(1.2);
+}
+.trending-story-sec .cards .card h4{
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    color: var(--mainText);
+    transition: all 0.3s;
+    cursor: default;
+}
+.trending-story-sec .cards .card h4:hover{
+    transition: all 0.3s;
+    color: var(--mainColor);
+}
+.trending-story-sec .cards .card p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--mainText);
+    opacity: 0.8;
+    margin-top: 13px;
+    margin-bottom: 23px;
+}
+.trending-story-sec .cards .card span{
+    color: var(--mainColor);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.trending-story-sec .cards .card span:hover{
+    transition: all 0.3s;
+    font-size: 17px;
 }
 /** end **/
