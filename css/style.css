@@ -299,3 +299,43 @@ a{
     cursor: default;
 }
 /** end **/
+
+/** guide section style **/
+/** start **/
+.guide{
+
+}
+.guide-sec{
+    margin-top: 190px;
+    margin-bottom: 190px;
+}
+.guide-sec .layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.guide-sec .layout .left-side{
+    padding-right: 102px;
+}
+.guide-sec .layout .left-side h3{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: var(--mainText);
+    margin-bottom: 20px;
+    cursor: default;
+    transition: all 0.3s;
+}
+.guide-sec .layout .left-side h3:hover{
+    transition: all 0.3s;
+    color: var(--mainColor);
+}
+.guide-sec .layout .left-side p{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--mainText);
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+/** end **/
