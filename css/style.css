@@ -32,6 +32,13 @@ ul{
 }
 /** end **/
 
+/** reset style for all anchor tags **/
+/** start **/
+a{
+    text-decoration: none;
+}
+/** end **/
+
 /** general style for container **/
 /** start **/
 .container{
@@ -49,6 +56,8 @@ ul{
     border-radius: 8px;
     padding: 15px;
     cursor: pointer;
+    border: 1px solid var(--mainColor);
+    transition: all 0.3s;
 }
 .btn.main-btn{
     color: white;
@@ -58,12 +67,10 @@ ul{
     transition: all 0.3s;
     color: var(--mainColor);
     background-color: white;
-    border: 1px solid var(--mainColor);
 }
 .btn.sub-btn{
     color: var(--mainColor);
     background-color: white;
-    border: 1px solid var(--mainColor);
     margin-right: 18px;
 }
 .btn.sub-btn:hover{
@@ -76,7 +83,7 @@ ul{
 /** navbar style **/
 /** start **/
 .navbar{
-    padding-top: 45px;
+    padding-top: 35px;
 }
 .navbar  .layout{
     display: flex;
@@ -96,6 +103,7 @@ ul{
     color: var(--subText);
     margin-right: 35px;
     cursor: pointer;
+    transition: all 0.3s;
 }
 .navbar  .layout .nav-list .nav-link:hover{
     transition: all 0.3s;
@@ -124,9 +132,11 @@ ul{
     line-height: 80px;
     color: var(--mainText);
     cursor: default;
+    transition: all 0..3s;
 }
 .hero-sec .layout .left-side h2:hover{
     color: var(--mainColor);
+    transition: all 0..3s;
 }
 .hero-sec .layout .left-side .search-holiday-form .form-title{
     font-weight: 600;
@@ -181,6 +191,7 @@ ul{
 /** start **/
 .explore-way-sec{
     margin-top: 190px;
+    margin-bottom: 190px;
 }
 .explore-way-sec .layout{
     display: flex;
@@ -196,6 +207,12 @@ ul{
     line-height: 50px;
     color: var(--mainText);
     margin-bottom: 20px;
+    cursor: default;
+    transition: all 0.3s;
+}
+.explore-way-sec .layout .right-side h3:hover{
+    transition: all 0.3s;
+    color: var(--mainColor);
 }
 .explore-way-sec .layout .right-side p{
     font-weight: 300;
@@ -204,5 +221,81 @@ ul{
     color: var(--mainText);
     opacity: 0.8;
     margin-bottom: 30px;
+}
+/** end **/
+
+/** featured destination style **/
+/** start **/
+.featured-destination-sec .sec-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.featured-destination-sec .sec-head h3{
+    color: var(--mainText);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    cursor: default;
+    transition: all 0.3s;
+}
+.featured-destination-sec .sec-head h3:hover{
+    transition: all 0.3s;
+    color: var(--mainColor);
+}
+.featured-destination-sec .sec-head a{
+    color: var(--mainColor);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+}
+.featured-destination-sec .sec-head a:hover img{
+    transition: all 0.3s;
+    transform: translateX(8px);
+}
+.featured-destination-sec .sec-head a img{
+    transition: all 0.3s;
+}
+.featured-destination-sec .items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+.featured-destination-sec .items .item{
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.featured-destination-sec .items .item:hover img{
+    transition: all 0.3s;
+    transform: scale(1.2);
+}
+.featured-destination-sec .items .item img{
+    width: 100%;
+    transition: all 0.3s;
+}
+.featured-destination-sec .items .item .item-title{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 8px;
+    background-color: white;
+    height: 56px;
+    width: 120px;
+    padding-top: 15px;
+}
+.featured-destination-sec .items .item .item-title h5{
+    color: var(--mainText);
+    cursor: default;
+    transition: all 0.3s;
+}
+.featured-destination-sec .items .item .item-title h5:hover{
+    transition: all 0.3s;
+    color: var(--mainColor);
+}
+.featured-destination-sec .items .item .item-title span{
+    color: var(--subText);
+    cursor: default;
 }
 /** end **/
