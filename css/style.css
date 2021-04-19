@@ -267,7 +267,7 @@ a{
     overflow: hidden;
     position: relative;
 }
-.featured-destination-sec .items .item:hover img{
+.featured-destination-sec .items .item img:hover{
     transition: all 0.3s;
     transform: scale(1.2);
 }
@@ -302,9 +302,6 @@ a{
 
 /** guide section style **/
 /** start **/
-.guide{
-
-}
 .guide-sec{
     margin-top: 190px;
     margin-bottom: 190px;
@@ -337,5 +334,90 @@ a{
     color: var(--mainText);
     opacity: 0.8;
     margin-bottom: 30px;
+}
+/** end **/
+
+/** testimonials section style **/
+/** start **/
+.testimonials-sec h3{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: var(--mainText);
+    margin-bottom: 40px;
+    transition: all 0.3s;
+    cursor: default;
+    width: fit-content;
+}
+.testimonials-sec h3:hover{
+    transition: all 0.3s;
+    color: var(--mainColor);
+}
+.testimonials-sec .layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonials-sec .layout .left-side{
+    padding-right: 102px;
+}
+.testimonials-sec .layout .left-side p{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--mainText);
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 450px;
+}
+.testimonials-sec .layout .left-side .person-title h4{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color: var(--mainText);
+    transition: all 0.3s;
+}
+.testimonials-sec .layout .left-side .person-title h4:hover{
+    transition: all 0.3s;
+    color: var(--mainColor);
+}
+.testimonials-sec .layout .right-side {
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+.testimonials-sec .layout .right-side > img{
+    width: 100%;
+    transition: all 0.3s;
+}
+.testimonials-sec .layout .right-side > img:hover{
+    transition: all 0.3s;
+    transform: scale(1.2);
+}
+.testimonials-sec .layout .right-side .slider-moves{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 8px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 133px;
+    height: 63px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+.testimonials-sec .layout .right-side .slider-moves img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.testimonials-sec .layout .right-side .slider-moves img:hover{
+    transition: all 0.3s;
+    transform: scale(1.05);
 }
 /** end **/
