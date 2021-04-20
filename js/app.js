@@ -37,6 +37,14 @@ navList.appendChild(fragmentDOM);
 //== handle elements that we need from DOM ==//
 //== start ==//
 const navLinks =document.querySelectorAll('.nav-link');
+const sectionsHeaders = document.querySelectorAll('section h3');
+//== end ==//
+
+//== functions we need ==//
+//== start ==//
+
+
+
 //== end ==//
 
 //== event we needs ==//
@@ -45,8 +53,12 @@ const navLinks =document.querySelectorAll('.nav-link');
 //== navlinks event ==//
 navLinks.forEach((el, ind)=>{
     el.addEventListener('click',()=>{
-        console.log('55')
-        sections[ind].scrollIntoView({behavior: "smooth", block: "start"});
+        sectionsHeaders.forEach(el=>{
+            el.style.color = '#202336';
+        });
+        
+        sectionsHeaders[ind].style.color = '#FB8F1D';
+        sections[ind].scrollIntoView({behavior: 'smooth', block: 'start'});
     });
 });
 

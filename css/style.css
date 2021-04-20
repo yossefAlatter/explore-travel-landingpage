@@ -244,6 +244,9 @@ a{
 
 /** hero section style **/
 /** start **/
+.hero-sec{
+    padding-bottom: 95px;
+}
 .hero-sec .layout{
     display: flex;
     justify-content: space-between;
@@ -361,7 +364,8 @@ a{
 /** explore way section style **/
 /** start **/
 .explore-way-sec{
-    padding-top: 150px;
+    padding-top: 95px;
+    padding-bottom: 95px;
 }
 .explore-way-sec .layout{
     display: flex;
@@ -405,7 +409,8 @@ a{
 /** start **/
 @media screen and (max-width: 990px){
     .explore-way-sec{
-        padding-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .explore-way-sec .layout{
         flex-direction: column;
@@ -430,7 +435,8 @@ a{
 /** featured destination style **/
 /** start **/
 .featured-destination-sec{
-    padding-top: 150px;
+    padding-top: 95px;
+    padding-bottom: 95px;
 }
 .featured-destination-sec .sec-head{
     display: flex;
@@ -511,7 +517,8 @@ a{
 /** start **/
 @media screen and (max-width: 990px){
     .featured-destination-sec{
-        padding-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .featured-destination-sec .sec-head{
         flex-direction: column;
@@ -538,7 +545,8 @@ a{
 /** guide section style **/
 /** start **/
 .guide-sec{
-    padding-top: 150px;
+    padding-top: 95px;
+    padding-bottom: 95px;
 }
 .guide-sec .layout{
     display: flex;
@@ -582,7 +590,8 @@ a{
 /** start **/
 @media screen and (max-width: 990px) {
     .guide-sec{
-        padding-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .guide-sec .layout{
         flex-direction: column-reverse;
@@ -607,7 +616,8 @@ a{
 /** testimonials section style **/
 /** start **/
 .testimonials-sec{
-    padding-top: 150px;;
+    padding-top: 95px;
+    padding-bottom: 95px;
 }
 .testimonials-sec h3{
     font-weight: bold;
@@ -696,7 +706,8 @@ a{
 /** start **/
 @media screen and (max-width: 990px){
     .testimonials-sec{
-        padding-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .testimonials-sec h3{
         text-align: center;
@@ -732,8 +743,8 @@ a{
 /** trending story section style **/
 /** start **/
 .trending-story-sec{
-    padding-top: 150px;
-    margin-bottom: 150px;
+    padding-top: 95px;
+    padding-bottom: 150px;
 }
 .trending-story-sec .sec-head{
     display: flex;
