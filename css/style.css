@@ -100,6 +100,7 @@ a{
     max-width: 1600px;
     margin: auto;
     background-color: white;
+    position: relative;
 }
 /** end **/
 
@@ -144,6 +145,7 @@ a{
     padding-top: 35px;
     position: fixed;
     width: 100%;
+    max-width: 1600px;
     padding-left: 12px;
     transition: all 0.3s;
 }
