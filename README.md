@@ -189,6 +189,6 @@ scrollTopBtn.addEventListener('click',()=>{
 //== end ==//
 ```
 
-In that code also is start with catch elemnts from dom then create function `handleScroll()` to handle style of navbar during scroll then creat function `indicateActive()` to catch active section then create function `visibilityScrollTop()` to indicate when scroll top button visible during scroll then create function `visibilityNavbar()` to indicate when navbar visible during scroll then use these functions to add that behavior to window when scroll by `addEventListener`
+In that code also is start with catch elemnts from DOM then create function `handleScroll()` to handle style of navbar during scroll then creat function `indicateActive()` to catch active section then create function `visibilityScrollTop()` to indicate when scroll top button visible during scroll then create function `visibilityNavbar()` to indicate when navbar visible during scroll then use these functions to add that behavior to window when scroll by `addEventListener`
 
 also i add behavior to `scrollTopBtn` to scroll to the head of the page when user click to it 
