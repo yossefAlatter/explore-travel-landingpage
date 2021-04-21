@@ -117,6 +117,7 @@ a{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    z-index: 999;
 }
 .scroll-top:hover{
     animation-name: toptop;

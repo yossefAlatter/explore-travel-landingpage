@@ -218,7 +218,7 @@ window.addEventListener('scroll',(e)=>{
     handleScroll();
     indicateActive();
     visibilityScrollTop();
-    visibilityNavbar()
+    visibilityNavbar();
 });
 
 //== scroll btn click event ==//
