@@ -16,6 +16,8 @@ I download the desgin of the page then start to write the HTML and CSS code for 
 ---
 ## requirements and code 
 
+
+
 **Sections links add to navbar dynamically**
 ```
 //== adding item to navbar dynamically ==//
@@ -52,6 +54,8 @@ navList.appendChild(fragmentDOM);
 ```
 
 In this code i first catch element from DOM then create a function `createNavLink(el)` to create section links then start the process of adding section links by looping throw all sections to create to each section link then append them to nav list 
+
+
 
 **User can move between sections by using navbar**
 ```
@@ -108,7 +112,9 @@ navLinks.forEach((el, ind)=>{
 
 In that code also start with catch elements i need from DOM then i depend in two functions function `resetStyle()` to reset style for elements that i chanege style then function `addNewStyle(ind)` to add new style it helps me to style certain section 
 then i use all these functions to add that behavior to links when i click to it by using `addEventListener` then also used `scrollIntoView` to scroll to certain section
---
+
+
+
 **Handle scroll event to indicate active section , scroll top visibility, navbar visibility**
 ```
 //== catch scroll event to window ==//
@@ -192,5 +198,9 @@ scrollTopBtn.addEventListener('click',()=>{
 In that code also is start with catch elemnts from DOM then create function `handleScroll()` to handle style of navbar during scroll then creat function `indicateActive()` to catch active section then create function `visibilityScrollTop()` to indicate when scroll top button visible during scroll then create function `visibilityNavbar()` to indicate when navbar visible during scroll then use these functions to add that behavior to window when scroll by `addEventListener`
 
 also i add behavior to `scrollTopBtn` to scroll to the head of the page when user click to it 
+
+---
+
+### I am very happy with that project and i do all of my best to do it 
 
 ---
