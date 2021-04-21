@@ -13,9 +13,9 @@ I download the desgin of the page then start to write the HTML and CSS code for 
 - user can move between sections by using navbar
 - handle scroll event to indicate active section , scroll top visibility, navbar visibility
 
+---
 ## requirements and code 
 
----
 **Sections links add to navbar dynamically**
 ```
 //== adding item to navbar dynamically ==//
