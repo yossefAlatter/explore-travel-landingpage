@@ -16,8 +16,7 @@ I download the desgin of the page then start to write the HTML and CSS code for 
 ## requirements and code 
 
 ""Sections links add to navbar dynamically""
-`
-//== adding item to navbar dynamically ==//
+`//== adding item to navbar dynamically ==//
 //== start ==//
 
 //== handle elements that we need from DOM ==//
@@ -46,6 +45,4 @@ sections.forEach(createNavLink);
 navList.appendChild(fragmentDOM);
 //== end ==//
 
-//== end ==//
-
-`
+//== end ==//`
